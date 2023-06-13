@@ -6,8 +6,8 @@ module.exports = {
             name: '@electron-forge/publisher-github',
             config: {
                 repository: {
-                    owner: 'yun73r',
-                    name: 'https://github.com/YUN73R/electron_app.git'
+                    owner: 'YUN73R',
+                    name: 'electron_app'
                 },
                 prerelease: false,
                 draft: true
@@ -19,7 +19,7 @@ module.exports = {
             name: '@electron-forge/maker-squirrel',
             config: {
                 certificateFile: './cert.pfx',
-                certificatePassword: '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'
+                certificatePassword: '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'
             },
         },
         {
